@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6e3ea;
+  
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card p b,
+h5 b {
+    color: #374e79;
+    font-style: italic;
+}
+
+.card p span,
+h5 span {
+    margin-left: 10px;
+    color: #6d5e82;
+}
+
+.card p span {
+    font-weight: 500;
+}
